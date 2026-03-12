@@ -256,3 +256,8 @@ wvi = float((((fusion_payload.get("liquidity") or {}).get("crowding_stress") or 
 if wvi >= cfg.WVI_PAUSE_THRESHOLD:
     await robin_hood.trigger_pause(f"WVI {wvi:.2f} acima do limite")
 ```
+
+
+### Conflict resolution check
+
+Use `infra/scripts/resolve_conflicts.sh` before commits/PRs to fail fast if any merge conflict marker (`<<<<<<<`, `=======`, `>>>>>>>`) remains in tracked source paths.
