@@ -163,7 +163,7 @@ Quick start:
 - `infra/scripts/activate_fastapi_nodes.sh`
 
 
-## External AI stack integration (CLI-Anything + BitNet + nanochat + OpenClaw + Page-Agent + Hermes-Agent)
+## External AI stack integration (CLI-Anything + BitNet + nanochat + OpenClaw + Page-Agent + Hermes-Agent + Claude Code)
 
 This project now supports local-first integration of:
 - `HKUDS/CLI-Anything`
@@ -172,6 +172,7 @@ This project now supports local-first integration of:
 - `openclaw/openclaw`
 - `alibaba/page-agent`
 - `NousResearch/hermes-agent`
+- `anthropics/claude-code`
 
 ### Local bootstrap
 

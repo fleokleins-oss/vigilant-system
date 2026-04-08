@@ -19,6 +19,7 @@ INTEGRATIONS: List[IntegrationSpec] = [
     IntegrationSpec("openclaw", "https://github.com/openclaw/openclaw", "third_party/openclaw"),
     IntegrationSpec("page-agent", "https://github.com/alibaba/page-agent", "third_party/page-agent"),
     IntegrationSpec("hermes-agent", "https://github.com/NousResearch/hermes-agent", "third_party/hermes-agent"),
+    IntegrationSpec("claude-code", "https://github.com/anthropics/claude-code", "third_party/claude-code"),
 ]
 
 
